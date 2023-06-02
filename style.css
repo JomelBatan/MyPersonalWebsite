@@ -1,0 +1,23 @@
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    display: block;
+    width: 80%;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .video {
+    top: 0;
+    left: 0;
+    width: 80%;
+    object-fit: cover;
+    display: none;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  
